@@ -7,3 +7,17 @@ The TSF-related additions, such as the Trustable Graph and tooling extensions, a
 - the utility scripts in the `TSF/scripts` folder
 
 The TSF graph (including links, nodes and their hashes) is saved in the `.dotstop.dot` file and the trudag extensions including CPP test references are stored in the `.dotstop_extensions` folder since these locations are required by the trudag tool.
+
+# Forking the repository
+
+In order to fork this repository or set up any repository where the TSF documentation in this repository is to be included, the following settings have to be configured on Github.
+
+- In `Settings` > `Features`:
+    - Enable `Issues`
+    
+- In `Settings` > `Branches` > `Add classic branch protection rule`: 
+    - Add `main` to the Branch name pattern
+    - Enable `Require a pull request before merging`
+    - Enable `Require approvals`
+    - Enable `Require review from Code Owners`
+    - Enable `Require status checks to pass before merging`
