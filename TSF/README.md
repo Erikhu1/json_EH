@@ -10,7 +10,7 @@ The TSF graph (including links, nodes and their hashes) is saved in the `.dotsto
 
 # Forking the repository
 
-In order to fork this repository or set up any repository where the TSF documentation in this repository is to be included, the following settings have to be configured on Github.
+In order to fork this repository or set up any repository where the TSF documentation in this repository is to be included, the following settings have to be configured on GitHub.
 
 - In `Settings` > `Features`:
     - Enable `Issues`
@@ -21,3 +21,23 @@ In order to fork this repository or set up any repository where the TSF document
     - Enable `Require approvals`
     - Enable `Require review from Code Owners`
     - Enable `Require status checks to pass before merging`
+    - Enable `Require branches to be up to date before merging`
+    - Enable `Require linear history`
+    - Enable `Do not allow bypassing the above settings`
+    - Click `Create`
+
+- In `Settings` > `Actions` > `General` > `Workflow Permissions`:
+    - Enable `Read repository contents and packages permissions`
+    - Disable `Allow GitHub Actions to create and approve pull requests`
+    - Click `Save`
+
+- In `Settings` > `Pages`:
+    - Under `Source`, select `GitHub Actions`
+
+- In `Settings` > `Advanced Security`:
+    - Enable `Dependency graph`
+    - Enable `Dependabot alerts`
+
+- In `Actions`:
+    - Click `I understand my workflows, go ahead and enable them`
+    - In the left side menu, click `Show more workflows...` and enable any workflows which are labelled as `Disabled` 
