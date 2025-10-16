@@ -50,3 +50,12 @@ nlohmann_json.spdx
 bazel-*
 MODULE.bazel.lock
 user.bazelrc
+
+/temp
+/TSF/temp
+
+/TSF/docs/generated
+
+/.venv
+
+__pycache__/
