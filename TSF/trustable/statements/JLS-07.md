@@ -10,4 +10,4 @@ score:
     Erikhu1: 1.0
 ---
 
-Main branch is protected, i.e. no direct commits are possible.
+Master branch is protected, i.e. no direct commits are possible.
